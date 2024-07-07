@@ -117,6 +117,7 @@ span{
 }
 .mid{
     width: 100%;
+    padding-top: 10px;
 }
 .small{
     font-size: 0.8rem;
@@ -131,6 +132,16 @@ span{
 
 button:hover{
     background-color: #00284e;
+}
+.check{
+    display: flex;  
+    gap: 5px;
+    padding: 5px 0; 
+}
+.check input{
+    height: 15px;
+    width: 20px;
+    padding: 0;
 }
 
 @media screen and (max-width:1200px) {
